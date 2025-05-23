@@ -1,2 +1,99 @@
+:root {
+  --border: solid 1px black;
+  --background-color: ;
+  --button-color: #261c41;
+  --text-color:black
+  
+}
+
 main {
+
+  
+
+
+  
+}
+
+#banner {
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  
+}
+
+Button {
+  border: var(--border);
+  background-color: var(--button-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  width:100%;
+  padding:10px;
+  margin:2px;
+
+}
+
+Button:hover {
+  background-color: var(--button-hover-color, #333); /* fallback value */
+  color: var(--button-hover-text-color, #fff);       /* optional */
+}
+
+
+#topnav {
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  
+}
+
+#topnavbutton {
+  width:100%;
+  
+  
+}
+
+
+#leftnav {
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  justify-content: center;
+  float: left;
+  min-width: 100px;
+  
+}
+
+#maincontentcontainer {
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+}
+
+#maincontent {
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 100%;  
+  min-height:800px;
+  
+}
+
+#rightnav{
+  border: var(--border);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  justify-content: center;
+  float: right;
+  min-width: 250px;
+}
+
+#footer{
+  border: var(--border);
+  background-color: #261c41;
+  color: var(--text-color);
+  max-height:100px;
+  
 }
