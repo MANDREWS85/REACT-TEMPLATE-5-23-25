@@ -7,7 +7,10 @@ export default function Banner({title,tagline,background}) {
     <div id={name} style={{
                             backgroundImage: `url(${background})`,
                             backgroundSize: 'cover',
-                            backgroundPosition: 'center',  
+                            backgroundPosition: 'center',
+                            justifyContent: 'center',
+                            textAlign: 'center',
+      
                     }}
       > 
       
