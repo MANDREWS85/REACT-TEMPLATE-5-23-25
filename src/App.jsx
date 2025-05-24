@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from "./Components/Banner.jsx"
 import TopNav from "./Components/TopNav.jsx"
+import RoutingNav from "./Components/RoutingNav.jsx"
 import LeftNav from "./Components/LeftNav.jsx"
 import MainContentContainer from "./Components/MainContentContainer.jsx"
 import RightNav from "./Components/RightNav.jsx"
@@ -26,6 +27,9 @@ export default function App() {
         background = "https://empirefable.magwebdesigns.net/wp/wp-content/uploads/2021/10/Empire_Fable_Thumb_Continent_Region_Map_Hand_Drawn_small-1.jpeg"
         
       />
+      
+      
+      {/* This is a comment inside JSX 
       <TopNav 
         nav_1_name = "LINK 1"
         nav_1_link = "#"
@@ -39,7 +43,8 @@ export default function App() {
         
         
       />
-  
+      */}
+      
       <MainContentContainer
         background = "https://empirefable.magwebdesigns.net/wp/wp-content/uploads/2021/10/dwarven_alebelcher_hand_drawn-1024x768.jpg"
         

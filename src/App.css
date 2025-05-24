@@ -5,6 +5,10 @@
   --text-color: black;
 }
 
+a {
+  text-decoration: none; /* removes underline */
+  color: inherit;        /* makes it inherit text color from parent */
+}
 /* Default desktop styles */
 main {
   background-color: var(--background-color);
@@ -39,6 +43,14 @@ Button:hover {
 #topnav {
   border: var(--border);
   background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+}
+
+#browser-router-nav {
+  border: var(--border);
+  background-color: #261c41;
   color: var(--text-color);
   display: flex;
   justify-content: center;

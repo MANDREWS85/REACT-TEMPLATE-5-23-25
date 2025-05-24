@@ -1,3 +1,4 @@
+import RoutingNav from "../Components/RoutingNav.jsx"
 
 
 export default function MainContent({background}) {
@@ -11,7 +12,7 @@ export default function MainContent({background}) {
                             backgroundPosition: 'center',  
                     }}
       > 
-      
+      <RoutingNav />
       <h1>  MAIN CONTENT </h1>
 
     </div>
