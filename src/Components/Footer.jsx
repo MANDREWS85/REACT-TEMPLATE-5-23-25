@@ -3,7 +3,7 @@ export default function Footer() {
 
   return(
 
-    <div id={name}> <h1>  {name} </h1> </div>
+    <div id={name}> <h1></h1> </div>
     
   )
   

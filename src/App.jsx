@@ -7,7 +7,12 @@ import MainContentContainer from "./Components/MainContentContainer.jsx"
 import RightNav from "./Components/RightNav.jsx"
 import Footer from "./Components/Footer.jsx"
 
-const backgroundImage = "https://empirefable.magwebdesigns.net/wp/wp-content/uploads/2021/02/empire_fable_title_animated-1-1024x1024.gif"
+
+
+import OnePageTemplate from "./Components/OnePageTemplate.jsx"
+
+
+const backgroundImage = "https://i0.wp.com/magwebdesigns.net/intro/wp-content/uploads/2025/05/Digital_rain_animation_medium_letters_shine.gif?resize=500%2C400&ssl=1"
 
 export default function App() {
   return (
@@ -22,11 +27,12 @@ export default function App() {
       }} >
       
       <Banner 
-        title = " SITE TITLE "
-        tagline = "SITE TAGLINE"
-        background = "https://empirefable.magwebdesigns.net/wp/wp-content/uploads/2021/10/Empire_Fable_Thumb_Continent_Region_Map_Hand_Drawn_small-1.jpeg"
+        title = " MAG WEB DESIGNS"
+        tagline = "Web Site / App Development in Michigan"
+        background = "https://i0.wp.com/magwebdesigns.net/intro/wp-content/uploads/2025/05/Digital_rain_animation_medium_letters_shine.gif"
         
       />
+
       
       
       {/* This is a comment inside JSX 
@@ -46,7 +52,7 @@ export default function App() {
       */}
       
       <MainContentContainer
-        background = "https://empirefable.magwebdesigns.net/wp/wp-content/uploads/2021/10/dwarven_alebelcher_hand_drawn-1024x768.jpg"
+        background = "https://i0.wp.com/magwebdesigns.net/intro/wp-content/uploads/2025/05/Digital_rain_animation_medium_letters_shine.gif?resize=500%2C400&ssl=1"
         
       />
       

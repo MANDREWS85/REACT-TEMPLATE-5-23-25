@@ -2,7 +2,7 @@
   --border: solid 1px black;
   --background-color: black;
   --button-color: #261c41;
-  --text-color: black;
+  --text-color: white;
 }
 
 a {
@@ -19,7 +19,8 @@ body{
 }
 
 #banner {
-  border: var(--border);
+  border: solid 5px #261c41;
+  border-radius:5px;
   background-color: var(--background-color);
   color: var(--text-color);
   
@@ -71,9 +72,10 @@ Button:hover {
 
 #maincontentcontainer {
   border: var(--border);
-  background-color: var(--background-color);
+  background-color:  #261c41;
   color: var(--text-color);
   display: flex;
+  padding:5px;
 }
 
 #maincontent {
@@ -84,13 +86,22 @@ Button:hover {
   min-height: 800px;
 }
 
-#rightnav {
+#onepagetemplate {
   border: var(--border);
+  color: var(--text-color);
+  display: flex;
+  padding:5px;
+}
+
+#rightnav {
+  border: 0px;
   background-color: #261c41;
   color: var(--text-color);
   justify-content: center;
   float: right;
   max-width: 250px;
+  margin-top:0px;
+  padding:5px;
 }
 
 #footer {

@@ -1,5 +1,6 @@
 import RoutingNav from "../Components/RoutingNav.jsx"
-
+import IframeContainer from "../Components/IframeContainer.jsx"
+import OnePageTemplate from "../Components/OnePageTemplate.jsx"
 
 export default function MainContent({background}) {
   const name = "maincontent"
@@ -12,8 +13,12 @@ export default function MainContent({background}) {
                             backgroundPosition: 'center',  
                     }}
       > 
-      <RoutingNav />
-      <h1>  MAIN CONTENT </h1>
+      
+      <IframeContainer 
+        src="https://blog.magwebdesigns.net/"
+        height = "1200px"
+      />
+
 
     </div>
     
